@@ -1,0 +1,104 @@
+p{
+	font-size: 50px;
+	color: pink;
+	background-color: lavender;
+	text-align: center;
+	font-family: cursive;
+}
+a.one:hover{
+	background-color: lavender;
+}
+a.one:active{
+	color: pink;
+}
+a.one:visited{
+	color:lightblue;
+}
+a.one{
+	font-size: 100px;
+	text-decoration: wavy;
+	text-decoration: blue;
+}
+.btn1{
+	width:500px;
+	height:75px;
+	font-size: 42px;
+	font-family: cursive;
+	border: solid 10px lightgreen;
+	background-color: yellow;
+	color: black;
+	border-radius: 10% 20%;
+}
+.btn1:hover{
+	border: solid 10px hotpink;
+	background-color: fuchsia;
+	color: pink;
+	border-radius: 10% 20%;
+	font-weight: 400px ;
+	box-shadow: 20px 20px lightcyan;
+	transform: translate(-10px, 20px);
+	text-transform: ;
+
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#db48db;
+	font-family:Georgia;
+	font-size:28px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+.myButton:hover {
+	background-color:#552d75;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 20px ;
+  margin-bottom: 20px;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}

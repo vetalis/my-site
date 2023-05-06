@@ -1,0 +1,32 @@
+p{
+	color: black;
+	background-color: lightblue;
+	font-size: 50px;
+}
+table {
+	border: double 5px blue;
+	width: 50%;
+	background: linear-gradient(#000,#fffs);
+}
+th,td{
+	border: solid 2px green;
+	width: 25%;
+	height: 1cm;
+	font-size: 24px;
+}
+tr:hover{background-color: grey;
+
+}
+td:hover{
+	background-image:url(https://media0.giphy.com/media/xThuWcaa4U4XZQDgvm/giphy.gif);
+text-align: center;
+font-size:2em;
+color:#fff;
+}
+tr:nth-child(odd){
+background-color:lightblue;
+}
+caption{
+	font-size: 50px;
+	color:darkblue;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+h1{
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-family: 'Lobster', cursive;
+
+}
+p{
+	text-align: justify;
+	text-indent: 24px;
+	line-height: 24px;
+}
+h2{
+	text-align: center;
+}
+figure{
+	border: solid 1px darkgrey;
+	max-width: 320px;
+	padding: 20px;
+	float: right;
+
+
+}

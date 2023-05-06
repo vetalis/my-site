@@ -1,0 +1,37 @@
+body{
+	background-color: lightsalmon;
+}
+p{
+	font-size:50px;
+	color: lime;
+	background-color: lightyellow;
+	font-family:  Times, "Times New Roman", Georgia, serif;
+
+}
+.second{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: magenta;
+}
+.third{
+	font-family: 'Caveat', cursive;
+
+}
+.fourth{
+	font-family: 'Pacifico', cursive;
+}
+
+.fifth{
+	font-family:'Yanone Kaffeesatz', sans-serif;
+
+}
+.shadow1{
+	text-shadow: 0 0 10px green;
+}
+.shadow2{
+	text-shadow: 2px -2px green;
+}
+.shadow3{
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+  font: 1.5em Georgia, serif;
+}
